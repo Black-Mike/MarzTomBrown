@@ -1,0 +1,50 @@
+
+main h2{
+ color: #2E489D;
+}
+
+main .imgGrid{
+    display: grid;
+    gap: .8rem;
+    height: 91.2rem;
+    grid-template-areas: 
+    "a b"
+    "a c" 
+    "d e"
+    "f e"    ;
+}
+main .imgGrid div{
+    width: 100%;
+    background-color: #CBD1E7;
+    border-radius: 0.8rem;
+}
+main .imgGrid .img{
+    background-size: cover;
+}
+main .imgGrid :first-child{
+     grid-area: a;
+     background-image: url('./Assets/div1.png');
+}
+main .imgGrid :nth-child(2){
+    grid-area: b;
+    background-image: url('./Assets/pexels-ron-lach-8668967.jpg');
+    
+}
+main .imgGrid :nth-child(3){
+    grid-area: c;
+    background-image: url('./Assets/div2.png');
+    
+}
+main .imgGrid :nth-child(4){
+    grid-area: d;
+    background-image: url('./Assets/div3.png');
+}
+main .imgGrid :nth-child(5){
+    grid-area: e;
+    background-image: url('./Assets/div6.png');
+}
+main .imgGrid :last-child{
+    grid-area: f;
+    background-image: url('./Assets/pexels-pavel-danilyuk-8762981.jpg');
+}
+

@@ -1,0 +1,84 @@
+
+main{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+main .headline h1 {
+    font-size: 11.8rem;
+    font-weight: 700;
+}
+main p{
+    margin-bottom: 1.8rem;
+}
+
+
+main .imgcontainer{
+    width: 100%;
+    height: 50rem;
+    background: url("Assets/Group\ 15.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+main .imgcontainer img{
+    height: 100%;
+}
+
+article{
+    width: 100%;
+    margin-top: 4rem;
+}
+article h2 {
+    color: #2E489D;
+    margin-bottom: 3.2rem;
+}
+article .cardEnclosure{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+article .productCard{
+    width: 37rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+article .productCard img{
+    width: 100%;
+    border-radius: 0.8rem;
+}
+
+
+
+aside{
+    margin-top: 4rem;
+    width: 100%;
+}
+aside h2{
+    color: #2E489D;
+}
+
+aside .productCardEnclosure{
+    display: flex;
+    gap: 20px;
+}
+
+.productCard{
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+}
+aside .productCardEnclosure .product1{
+    width: 100%;
+    height: 387px;
+    background-image: url("./Assets/tombrownp.png");
+}
+aside .productCardEnclosure .product2{
+    width: 100%;
+    height: 387px;
+    background-image: url("./Assets/tombrownlactfree.png")
+}
+
